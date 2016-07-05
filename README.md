@@ -3,5 +3,9 @@
 This application serves no purpose but to provide dummy server to test 
 API clients against.
 
-Currently there is no official release, wor-in-progress lies in `dev`
-branch.
+## Launching
+
+```
+gradle build
+java -jar build/libs/test-api-server-1.0.0-SNAPSHOT.jar
+```

@@ -18,4 +18,6 @@ public class Routing {
     public static final String USERS_ENDPOINT = "/api/structure/user";
 
     public static final String USER_ENDPOINT = USERS_ENDPOINT + "/{login}";
+
+    public static final String PAYLOAD_MIRROR_ENDPOINT = "/api/payload/mirror";
 }
